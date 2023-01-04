@@ -1,29 +1,28 @@
-import "./styles.css";
-//import card1
-import Card1 from "./components/Card1";
-import Card2 from "./components/Card2";
-import cardsArr from "./data";
-// console.log(cardsArr)
+import './App.css';
+import Card1 from './components/Card1';
+import Card2 from './components/Card2';
+import cardsArr from './data';
 
-const cards = cardsArr.map((ele, idx) => {
+const cards = cardsArr.map((element, index) => {
   return (
-    <Card1
-      key={idx}
-      title={ele.title}
-      url={ele.url}
-      img={ele.img}
-      text={ele.text}
+    <Card1 
+    img={element.img} 
+    title={element.title} 
+    text={element.text} 
+    url={element.url}
     />
-  );
-});
+  )
+})
 
-// console.log(cards);
-
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <h1>Bootstrap Cards To Component Example</h1>
-      <section className="cards">{cards}</section>
+      <h2>Places to Visit</h2>
+      <section className='cards'>
+    {cards}
+    </section>
     </div>
   );
 }
+
+export default App;
