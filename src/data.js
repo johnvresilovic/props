@@ -12,7 +12,7 @@ export default [
       "https://images.unsplash.com/photo-1498712964741-5d33ab9e5017?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=600",
     title: "Zakynthos",
     text:
-      "This was like being a pirate and we were looking to bury our treasure. It was so isolated and beautiful.",
+      "This was like being a pirate and we were looking to bury our treasure.",
     url: "https://unsplash.com/s/photos/zakynthos"
   },
   {
@@ -28,7 +28,7 @@ export default [
       "https://images.unsplash.com/photo-1587974928552-4f4aac51b45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsdGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
     title: "Malta",
     text:
-      "Loved it.",
+      "So isolated and beautiful.  Loved it!",
     url: "https://unsplash.com/s/photos/malta"
   },
 ];
