@@ -1,15 +1,11 @@
 import './App.css';
-import Card1 from './components/Card1';
-import Card2 from './components/Card2';
+import Card from './components/Card';
 import cardsArr from './data';
 
 const cards = cardsArr.map((element, index) => {
   return (
-    <Card1 
-    img={element.img} 
-    title={element.title} 
-    text={element.text} 
-    url={element.url}
+    <Card 
+    {...element}
     key={index}
     />
   )
