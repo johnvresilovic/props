@@ -10,6 +10,7 @@ const cards = cardsArr.map((element, index) => {
     title={element.title} 
     text={element.text} 
     url={element.url}
+    key={index}
     />
   )
 })
