@@ -1,5 +1,5 @@
-export default function CardImage(props) {
+export default function CardImage({img}) {
   return (
-    <img className="card-img" src={props.img}/>
+    <img className="card-img" src={img}/>
   );
 }

@@ -1,5 +1,5 @@
-export default function Button(props) {
+export default function Button({url}) {
   return (
-      <a href={props.url}>I want to go to there</a>
+      <a href={url}>I want to go to there</a>
   );
 }
