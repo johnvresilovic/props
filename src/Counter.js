@@ -1,10 +1,19 @@
+import {useState} from 'react'
+
 function Counter() {
+    const [count, setCount] = useState(0)
+    const handleIncrement = () => {
+        setCount(count + 1)
+    }
+    const handleDecrement = () => {
+        setCount(count - 1)
+    }
     return(
         <>
-    <span>Current Count: 0</span>
+    <span>Current Count: {count}</span>
     <section>
-        <button>+</button>
-        <button>-</button>
+        <button onClick={handleIncrement}>+</button>
+        <button onClick={handleDecrement}>-</button>
     </section>
         </>
     )
