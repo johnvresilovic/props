@@ -1,6 +1,7 @@
 import './App.css';
 import Card from './components/Card';
 import cardsArr from './data';
+import Counter from './Counter'
 
 const cards = cardsArr.map((element, index) => {
   return (
@@ -14,10 +15,11 @@ const cards = cardsArr.map((element, index) => {
 function App() {
   return (
     <div className="App">
-      <h2>Places to Visit</h2>
+      {/* <h2>Places to Visit</h2>
       <section className='cards'>
     {cards}
-    </section>
+    </section> */}
+    <Counter />
     </div>
   );
 }
