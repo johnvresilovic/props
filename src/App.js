@@ -1,16 +1,16 @@
 import './App.css';
-import Card from './components/Card';
-import cardsArr from './data';
+// import Card from './components/Card';
+// import cardsArr from './data';
 import Counter from './Counter'
 
-const cards = cardsArr.map((element, index) => {
-  return (
-    <Card 
-    {...element}
-    key={index}
-    />
-  )
-})
+// const cards = cardsArr.map((element, index) => {
+//   return (
+//     <Card 
+//     {...element}
+//     key={index}
+//     />
+//   )
+// })
 
 function App() {
   return (
